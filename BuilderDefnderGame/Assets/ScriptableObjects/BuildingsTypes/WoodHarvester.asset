@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f79cf94c6cc0649ba614b209c3469e, type: 3}
+  m_Name: WoodHarvester
+  m_EditorClassIdentifier: 
+  stringName: Wood Harvester
+  prefab: {fileID: 6591139172464208806, guid: 5d7a2a38dcf659e41b330631ac08e727, type: 3}
+  hasResourceGenerationData: 1
+  resourceGeneratorData:
+    timerMax: 0.5
+    resourceType: {fileID: 11400000, guid: 352a4712fcc9e9a41bdb3455c51aa436, type: 2}
+    resourceDetectionRadius: 7
+    maxResourceAmount: 7
+  sprite: {fileID: 21300000, guid: 793ca27a5a3378149aaa12abe85933f4, type: 3}
+  minConstructionRadius: 10
+  constructionResourceCostArray:
+  - resourceType: {fileID: 11400000, guid: 352a4712fcc9e9a41bdb3455c51aa436, type: 2}
+    amount: 10
+  healthAmountMax: 100
+  constructionTimerMax: 5
